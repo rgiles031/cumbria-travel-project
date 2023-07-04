@@ -1,3 +1,42 @@
-h1 {
+body {
   font-family: "Poppins", sans-serif;
+}
+
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(https://www.campingandcaravanningclub.co.uk/-/media/Images/Regions/Lake-District-folder/Lake-District.jpg?rev=fe19ea3ff6a14c5a8a9c34eabe3a670c&w=1920&h=940);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  padding: 200px 0px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 48px;
+  margin-bottom: 0px;
+  margin-top: -30px;
+}
+
+header h3 {
+  margin-top: 0px;
+  font-size: 24px;
+}
+
+header p {
+  font-size: 18px;
+}
+
+header a {
+  padding: 14px 20px;
+  display: inline-block;
+  background-color: white;
+  color: #353535;
+  border: none;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.container {
+  margin: 10px;
 }
