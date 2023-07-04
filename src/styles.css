@@ -40,3 +40,23 @@ header a {
 .container {
   margin: 10px;
 }
+
+@media (max-width: 960px) {
+  header {
+    padding: 80px;
+  }
+  header h1 {
+    font-size: 28px;
+  }
+
+  header h3 {
+    font-size: 18px;
+  }
+
+  header p {
+    font-size: 16px;
+  }
+  header a {
+    font-size: 16px;
+  }
+}
