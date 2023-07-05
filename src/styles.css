@@ -37,6 +37,35 @@ header a {
   text-decoration: none;
 }
 
+footer {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url(https://d50pam5yl42ps.cloudfront.net/website/production/photo/_1200x630_crop_center-center_none/%C2%A9herdy_herdysleep_JBTups_290816_0034.jpg?v=1636485696);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 60px;
+}
+
+footer ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer a {
+  text-decoration: underline;
+  color: white;
+  opacity: 0.8;
+}
+
+footer .container {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr;
+  grid-gap: 20px;
+  font-size: 16px;
+  color: white;
+  opacity: 0.8;
+}
+
 .container {
   margin: 10px;
 }
