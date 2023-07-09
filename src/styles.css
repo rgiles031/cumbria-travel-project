@@ -136,6 +136,15 @@ footer .container {
   text-decoration: none;
 }
 
+.embed {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+}
+
+.card-header .grid {
+  grid-gap: 0px;
+}
+
 @media (max-width: 960px) {
   header {
     padding: 80px;
@@ -162,6 +171,15 @@ footer .container {
   section.secondary {
     padding: 30px;
   }
+
+  .card img {
+    display: none;
+  }
+
+  .card .embed {
+    aspect-ratio: 16 / 9;
+  }
+
   .grid {
     grid-template-columns: 1fr;
   }
